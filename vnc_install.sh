@@ -8,6 +8,7 @@ source ~/.bashrc
 export PATH=$PATH:/home/ideiowo/.local/bin
 source $HOME/.bashrc
 sudo apt install vino
+sudo apt autoremove
 mkdir -p ~/.config/autostart
 cp /usr/share/applications/vino-server.desktop ~/.config/autostart
 gsettings set org.gnome.Vino prompt-enabled false
